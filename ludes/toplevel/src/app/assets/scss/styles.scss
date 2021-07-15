@@ -1,0 +1,472 @@
+@import "./components/variables.scss";
+
+.background1 {
+  background-color: $color1;
+}
+
+.background2 {
+  background-color: $color5;
+}
+
+.background3 {
+  background-color: $color2;
+}
+
+.bg-register {
+  position: absolute;
+  left: 0;
+  width: -webkit-fill-available;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: $color8;
+}
+
+.text-primary {
+  color: $color4;
+}
+
+.text-success {
+  color: $color2;
+}
+
+.text-danger {
+  color: $color7;
+}
+
+.btn-success {
+  .ant-btn {
+    width: 164px;
+    height: 38px;
+    border-radius: 6px !important;
+    background-color: $color2 !important;
+    color: white !important;
+  }
+}
+
+.card {
+  background-color: $color8;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.title1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 57px;
+  letter-spacing: 0.015em;
+}
+
+.title2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.015em;
+}
+
+.title3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.015em;
+}
+
+.note1 {
+  color: $color3;
+  font-style: normal;
+  font-family: SFProDisplay-Regular;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+}
+
+.note2 {
+  color: $color3;
+  font-style: normal;
+  font-family: SFProDisplay-Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+}
+
+.note3 {
+  color: $color3;
+  font-style: normal;
+  font-family: SFProDisplay-Regular;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.015em;
+}
+
+@media only screen and (min-width: 1600px) {
+  .layout1 {
+    .layout2 {
+      margin: 80px 95px 0 178px !important;
+
+      .title1 {
+        font-size: 48px !important;
+      }
+
+      .tabs {
+        .imgproduk {
+          width: 150px !important;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .layout1 {
+    .layout2 {
+      .cards {
+        margin-bottom: 0px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .bg-register {
+    display: block !important;
+    padding: 64px 0px 10px 64px;
+  }
+
+  .form-regis {
+    padding: 64px 64px 10px 64px;
+  }
+
+  .form-register {
+    padding: 20px 80px 10px 80px;
+  }
+
+  .logo-register {
+    position: absolute !important;
+    top: 80px !important;
+    left: 80px !important;
+    width: 70px !important;
+    transform: none !important;
+  }
+
+  .title-register {
+    display: block !important;
+    position: absolute !important;
+    top: 105px !important;
+    left: 160px !important;
+    width: 250px !important;
+  }
+
+  .have-account {
+    padding: 64px 80px 0px 80px;
+  }
+
+  .titled-register {
+    font-size: 64px;
+  }
+}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 0px) {
+  .layout1 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: $color1;
+
+    .layout2 {
+      flex: auto;
+      margin: 40px 100px 0 100px;
+
+      .title1 {
+        font-size: 32px;
+
+        img {
+          height: 56px;
+          margin-right: 30px;
+          margin-top: -10px;
+        }
+
+        .card {
+          background-color: $color8;
+          color: $color4;
+          flex: auto;
+          padding: 10px 20px;
+          float: right;
+          width: 300px;
+          position: relative;
+
+          .dropdownBg {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: $color5;
+            float: left;
+            position: absolute;
+            top: 35%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .name {
+            text-align: center;
+          }
+
+          .note1 {
+            font-size: 12px;
+            line-height: 7px;
+          }
+
+          img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            float: right;
+            margin: 0;
+          }
+        }
+      }
+
+      .cards {
+        margin-bottom: 20px;
+      }
+
+      .ant-table {
+        margin-right: 10px;
+      }
+
+      .tab-menu {
+        margin-left: 70px;
+      }
+
+      .tabs {
+        color: $color2;
+        width: auto;
+        padding-top: 20px;
+
+        .tab-content {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 28px;
+          color: $color4;
+        }
+
+        .tab-content-small {
+          font-style: normal;
+          font-weight: 200;
+          font-size: 16px;
+          line-height: 29px;
+          color: $color4;
+        }
+
+        .imgproduk {
+          width: 150px;
+        }
+
+        .active {
+          color: $color2;
+        }
+      }
+    }
+
+    .layout3 {
+      height: 100%;
+      width: 400px;
+      background-color: $color5;
+
+      .layout4 {
+        margin: 118px 40px 0 40px;
+      }
+    }
+  }
+
+  .submenuact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    div {
+      padding: 40px 0px;
+    }
+
+    .content1 {
+      padding-left: 22px;
+    }
+
+    .content2 {
+      text-align: center;
+      flex: 1;
+    }
+
+    .content3 {
+      padding-right: 30px;
+    }
+  }
+
+  .card {
+    background-color: $color8;
+  }
+
+  .bg-2 {
+    background-color: $color2;
+    color: $color8;
+  }
+
+  .avatar-profil {
+    text-align: center;
+
+    img {
+      border-radius: 50%;
+      margin-top: 64px;
+      width: 105px;
+      height: 100%;
+    }
+
+    .title2 {
+      padding: 18px 0 8px 0;
+    }
+
+    .btnnya {
+      font-family: SFProDisplay-Regular;
+      padding: 80px 0px;
+      font-size: 14px;
+      line-height: 17px;
+      font-size: 14px;
+
+      button {
+        border-radius: 6px;
+      }
+    }
+  }
+
+  .bg-register {
+    display: none;
+  }
+
+  .form-regis {
+    padding: 20px 20px 10px 20px;
+  }
+
+  .logo-register {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    right: 0;
+    width: 70px;
+    transform: translate(-50%, 50%);
+  }
+
+  .title-register {
+    display: none;
+  }
+
+  .have-account {
+    text-align: right;
+    margin-bottom: 70px;
+  }
+
+  .titled-register {
+    font-size: 36px;
+  }
+
+  .input-base {
+    border-radius: 8px;
+    background-color: $color5;
+
+    .ant-input {
+      background-color: $color5;
+    }
+  }
+
+  .select-base {
+    .ant-select-selector {
+      border-radius: 8px !important;
+      background-color: $color5 !important;
+    }
+  }
+
+  .card-filter {
+    background-color: $color8;
+    padding: 7px 10px;
+    border-radius: 15px;
+  }
+
+  .ant-tabs-ink-bar {
+    background-color: $color2;
+  }
+
+  .ant-btn {
+    border: 0px;
+  }
+
+  .ant-list-item-meta-title {
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  .ant-list-item {
+    padding: 0;
+    padding-top: 10px;
+  }
+
+  .ant-result {
+    padding: 20px;
+  }
+
+  .ant-picker {
+    border: 0;
+  }
+
+  .ant-card-body {
+    border-bottom: 0;
+    padding: 0;
+  }
+
+  .ant-table-title {
+    padding: 0;
+  }
+
+  .ant-pagination {
+    padding: 8px;
+    background: #F4F2FF;
+  }
+
+  .ant-table-pagination.ant-pagination {
+    margin: 0;
+  }
+
+  .layout1 .layout2 .ant-table {
+    margin-right: 0;
+  }
+
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background-color: transparent;
+  }
+
+  .card-input {
+    border: 1px solid #B9BAC3;
+    background-color: $color8;
+    border-radius: 5px;
+  }
+
+  div.ant-typography,
+  .ant-typography p {
+    margin-bottom: 0.5rem;
+  }
+
+  .button-download {
+    border: none;
+    background: none;
+  }
+}

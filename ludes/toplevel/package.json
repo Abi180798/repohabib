@@ -1,0 +1,50 @@
+{
+  "name": "petrapos-top-level",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://patra.ludes.in:5000/api/v1",
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "antd": "^4.7.2",
+    "axios": "^0.21.1",
+    "cogo-toast": "^4.2.3",
+    "formik": "^2.2.1",
+    "history": "^5.0.0",
+    "js-base64": "^3.6.0",
+    "js-cookie": "^2.2.1",
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.1",
+    "react-csv": "^2.0.3",
+    "react-dom": "^17.0.1",
+    "react-html-table-to-excel": "^2.0.0",
+    "react-responsive": "^8.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.4",
+    "recharts": "^1.8.5",
+    "store": "^2.0.12",
+    "yup": "^0.32.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {}
+}

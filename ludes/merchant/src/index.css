@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: SFProDisplay-Bold;
+  background-color:#f6fff7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: SFProDisplay-Regular;
+  src: url("./app/assets/font/SF-Pro-Display-Regular.otf");
+}
+
+@font-face {
+  font-family: SFProDisplay-Bold;
+  src: url("./app/assets/font/SF-Pro-Display-Bold.otf");
+}
